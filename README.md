@@ -10,20 +10,28 @@
 
 <br>
 
-<h3> 개발팀 소개 </h3>
-  
-|      김도형       |          박성욱         |       이혜정        |       진유록        |       최우람      |                                                                                            
-| :--------------------------: | :--------------------------: | :--------------------------: | :--------------------------: | :--------------------------: |
-| <image width="150px" src="https://user-images.githubusercontent.com/119159558/227075769-378c58ac-82ff-49c8-a20d-0a22120f539e.png"/> | <image width="150px" src="https://user-images.githubusercontent.com/119159558/227076242-6e802ef4-4f4e-48f0-8a8a-aa5f4ebdb8b8.png"/> | <image width="150px" src="https://user-images.githubusercontent.com/119159558/227076363-f2a67940-90c3-41de-abdf-4c2a0313212b.png"/> | <image width="150px" src="https://user-images.githubusercontent.com/119159558/227076449-e586846c-440d-4f42-88e4-c743ef2ec39e.png"/> | <image width="150px" src="https://user-images.githubusercontent.com/119159558/227076534-4f71a8d8-7bf8-485e-ae30-a941e640624c.png"/> |
-| [@kdh5983](https://github.com/kdh5983) | [@WooK1184](https://github.com/WooK1184) | [@leehyejeong23421](https://github.com/leehyejeong23421) | [@2undaunted](https://github.com/2undaunted) | [@wooov](https://github.com/wooov) |
+### Environment
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+
+### Config
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)        
+
+### Development
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=Terraform&logoColor=whtie)
+
+### Communication
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
+
+# 💡 서비스 아키텍처
+![_진짜최종아키텍처](https://user-images.githubusercontent.com/119268657/227091328-fa1f864d-b672-4068-8fe2-2be2d282f349.png)
 
 <br>
-<h3><직면한 문제></h3>
-
- - 글로벌 트래픽이 증가로 인한 특정 국가의 이용자로부터 웹사이트 로딩이 느리다는 불만이 속출
- - K-Pop 아이돌로부터 발생하는 각종 사안에 따라, 순간적으로 트래픽이 급증하는 형태를 보여 종종 다운타임이 발생
- - 모니터링 시스템의 부재
- - 개발 조직문제 → 전문 개발자의 부재로 개발 중인 제품이 곧바로 production 수준에 배포되거나, 충분한 테스트를 거치지 못한 채로 릴리즈되는 경우가 있음
 
 <br>
 
@@ -56,26 +64,16 @@ $ npm install
 $ npm run start
 ```
 ---
-### Environment
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
 
-### Config
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)        
+<br>
+<h3><직면한 문제></h3>
 
-### Development
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=Terraform&logoColor=whtie)
+ - 글로벌 트래픽이 증가로 인한 특정 국가의 이용자로부터 웹사이트 로딩이 느리다는 불만이 속출
+ - K-Pop 아이돌로부터 발생하는 각종 사안에 따라, 순간적으로 트래픽이 급증하는 형태를 보여 종종 다운타임이 발생
+ - 모니터링 시스템의 부재
+ - 개발 조직문제 → 전문 개발자의 부재로 개발 중인 제품이 곧바로 production 수준에 배포되거나, 충분한 테스트를 거치지 못한 채로 릴리즈되는 경우가 있음
 
-### Communication
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)
- 
----
-
+   
 <br>
 <details>
     <summary><strong>📍 요구사항 </strong></summary>
@@ -165,21 +163,12 @@ Other Service
 | <image width="620" src="https://user-images.githubusercontent.com/119159558/227081039-4d727b7e-4dbf-4357-9199-d4d9238a1cfb.png"/> | <image width="620" src="https://user-images.githubusercontent.com/119159558/227081274-a44b58c5-1e54-4b23-9b1b-f795f51563bc.png"/> |
 <br>
 
-# 💡 서비스 아키텍처
-![_진짜최종아키텍처](https://user-images.githubusercontent.com/119268657/227091328-fa1f864d-b672-4068-8fe2-2be2d282f349.png)
-
-<br>
 
 # 💡 서비스 아키텍처 슬라이드
 ![찐최종슬라이드](https://user-images.githubusercontent.com/119268657/227088861-10b59705-4eb3-49a3-a7c3-e6396f5445a9.png)
 
 
-
 <br>
-
-<br>
-
-
 
 # 💡 디렉토리 구조
 
